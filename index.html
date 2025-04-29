@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="shirt">
+                <img id="img1" src="/img/Asenal.png" onclick=changeImg1()>
+            </div>
+            <div class="shirt">
+                <img id="img2" src="/img/Bacelona.png" onclick=changeImg2()>
+            </div>
+            <div class="shirt">
+                <img id="img3" src="/img/Liverpool.png" onclick=changeImg3()>
+            </div>
+            <div class="shirt">
+                <img id="img4" src="/img/Menchester United.png" onclick=changeImg4()>
+            </div>
+            <div class="shirt">
+                <img id="img5" src="/img/Real madrid.png" onclick=changeImg5()>
+            </div>
+        </div>
+        <div class="detail">
+            <div class="picture">
+                <img id="pic" src="/img/Asenal.png">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function changeImg2() {
+        document.getElementById('pic').setAttribute("src", "/img/Bacelona.png");
+    }
+    function changeImg3() {
+        document.getElementById('pic').setAttribute("src", "/img/Liverpool.png");
+    }
+    function changeImg4() {
+        document.getElementById('pic').setAttribute("src", "/img/Menchester United.png");
+    }
+    function changeImg5() {
+        document.getElementById('pic').setAttribute("src", "/img/Real madrid.png");
+    }
+    function changeImg1() {
+        document.getElementById('pic').setAttribute("src", "/img/Asenal.png");
+    }
+</script>
+
+</html>
